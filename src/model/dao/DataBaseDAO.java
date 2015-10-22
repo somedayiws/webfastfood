@@ -116,7 +116,7 @@ public class DataBaseDAO {
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			con = DriverManager.getConnection(
-					"jdbc:sqlserver://localhost:2810;databaseName=DAMANGDB",
+					"jdbc:sqlserver://localhost:1433;databaseName=DAMANGDB",
 					"useradmin", "zxcvbnm1233");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
